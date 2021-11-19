@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-color: rgba(53, 49, 49, 0.425);;  
+}
+h1{
+    font-size: 3em;
+    color: rgba(250, 245, 245, 0.425);
+    padding-top: 5px;
+    
+}
+div{
+    width: 280px;
+    height: 200px;
+    border: 1px solid white;
+    background-color: rgb(19, 17, 17);
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 3px 1px 1px;
+    padding-top:10px;
+}
+button{
+    width: 70px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 2px ; 
+}
+button:hover{
+    cursor: pointer;
+}
+.start-btn{
+    background-color: rgba(0, 128, 0, 0.733);
+    margin-right: 5px;
+    
+}
+.pause-btn{
+    background-color: tomato;
+}
+.reset-btn{
+    background-color: rgba(100, 148, 237, 0.637);
+    margin-left: 5px;
+}
